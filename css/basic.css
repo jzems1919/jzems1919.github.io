@@ -1,7 +1,3 @@
-body{
-	padding: 0px;
-	margin: 0px;
-}
 .menu{
 	font-family: "黑体";
 	border-bottom: 4px solid #3b3b3b;
@@ -71,4 +67,7 @@ body{
 	font-family: "微软雅黑";
 	font-size: 20px;
 }
-			
+body{
+	padding: 0px;
+	margin: 0px;
+}			
