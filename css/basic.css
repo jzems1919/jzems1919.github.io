@@ -25,7 +25,7 @@ body{
 	letter-spacing: 20px;
 	padding-top: 32px;
 	padding-bottom: 32px;
-	background-color: #DDDDDD;
+	background-color: #DDDDDD99;
 	color: #ff7f00;
 	width: 1080px;
 	margin: 16px auto;
@@ -36,17 +36,18 @@ body{
 	
 }
 
-#zhengwen{
+.zhengwen{
 	width: 1040px;
-	margin: auto;
-	background-color: #ffffdd;
+	margin: 16px auto;
+	background-color: #ffffddbb;
 	border: 2px dotted #aaaa33;
 	border-radius: 8px;
 	padding: 4px 16px;
 }
 
 .subtitle{
-	
+	color: #003366;
+	font-size: 19px;
 }
 
 .paragraph{
@@ -54,7 +55,7 @@ body{
 }
 
 .duanluo0{
-	
+	font-size: 19px;
 }
 
 .footer{
