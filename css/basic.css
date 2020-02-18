@@ -1,0 +1,71 @@
+.menu{
+	font-family: "黑体";
+	border-bottom: 4px solid #3b3b3b;
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: center;
+	background-color: #8b8b8b;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	text-decoration: none;
+	
+}
+
+.title{
+	border-bottom: 16px solid #555555;
+	font-family: "楷体";
+	font-size: 110px;
+	font-weight: bolder;
+	text-shadow: 5px 5px 10px #ffffff;
+	text-align: center;
+	letter-spacing: 20px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color: #DDDDDD;
+	color: #ff7f00;
+	width: 1080px;
+	margin: 16px auto;
+	position: relative;
+}
+
+#cemulu{
+	
+}
+
+#zhengwen{
+	width: 1040px;
+	margin: auto;
+	background-color: #ffffdd;
+	border: 2px dotted #aaaa33;
+	border-radius: 8px;
+	padding: 4px 16px;
+}
+
+.subtitle{
+	
+}
+
+.paragraph{
+	
+}
+
+.duanluo0{
+	
+}
+
+.footer{
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	border-top: 2px solid black;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin-top: 32px;
+	margin-bottom: 0px;
+	background-color: #474747;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+			
