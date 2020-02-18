@@ -16,13 +16,25 @@
 		  s.parentNode.insertBefore(hm, s);
 		})();
 		</script>
+		<!-- 收藏 -->
+		<script type="text/javascript">
+		function addBookmark(title,url) {
+		if (window.sidebar) {
+		window.sidebar.addPanel(title, url,"");
+		} else if( document.all ) {
+		window.external.AddFavorite( url, title);
+		} else if( window.opera && window.print ) {
+		return true;
+		}
+		}
+		</script>
 	</head>
 	<body background="index/bg1.jpg">
 		<!-- 页眉 -->
 		<nav class="menu">
 			<a href="" class="menu"  style="color: #ff7f00;">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="" class="menu">新闻</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<a href="" class="menu">成员</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="" class="menu">“学习”</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<a href="" class="menu">内容</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<a href="" class="menu">链接</a>
 		</nav>
@@ -32,6 +44,25 @@
 		<div id="cemulu"></div>	
 		
 		<!-- 正文 -->
+		<div class="zhengwen">
+			<div class="subtitle">
+				<h1>青哥买了个新电脑！</h1>
+			</div>
+			<div class="paragraph">
+				<p class="duanluo0">来源：2020.2.18晚上19点在<a target="_blank" href="https://www.dingtalk.com" class="duanluo0">钉钉</a>放送最后说：“……住些意子，电脑，，买了个新电脑，ah h，花了好几千，咳咳，也不知道什么时候来……”</p>
+			</div>
+		</div>
+		
+		<div class="zhengwen">
+			<div class="subtitle">
+				<h1>公告[2020年2月18日]</h1>
+			</div>
+			<div class="paragraph">
+				<p class="duanluo0">各种内容很快就会有的，移动端页面也会有的。</p>
+				<a href=javascript:addBookmark('收藏混子网,'https://jzems1919.github.io/') class="duanluo0">点下 收藏 不吃亏</a>
+			</div>
+		</div>
+			
 		<div class="zhengwen">
 			<div class="subtitle">
 				<h1>来自青哥的问候</h1>
