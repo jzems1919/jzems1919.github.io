@@ -1,0 +1,35 @@
+#maindiv{
+	margin: 0px;
+	position: relative;
+}
+
+.notice{
+	margin: 2vw;
+	background-color: #fafbfc;	
+	border: 0.3vw solid #3f85b6;
+	border-radius: 2vw;	
+}
+
+.maintext{
+	margin: 2vw;	
+	font-size:4vw;
+}
+
+.maintitle{
+	margin: 2vw;
+	color: #0086b6;
+	font-weight: bold;
+	font-size:6vw;
+}
+
+.img{
+	margin: 2vw;
+	width:92vw;
+	height:auto;
+}
+
+body{
+	background-color: #e5f4f8;
+	padding: 0px;
+	margin: 0px;
+}	
